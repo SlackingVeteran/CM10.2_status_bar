@@ -1070,7 +1070,7 @@ public final class Launcher extends Activity
         mDockDivider = findViewById(R.id.dock_divider);
 
         mLauncherView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
-        mWorkspaceBackgroundDrawable = getResources().getDrawable(R.drawable.workspace_bg);
+        mWorkspaceBackgroundDrawable = null;
 
         // Setup the drag layer
         mDragLayer.setup(this, dragController);
